@@ -44,6 +44,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 40px;
+  margin-top: 45px;
 }
 
 .inputbox {
@@ -101,10 +102,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   border-radius: 2px;
+  margin-top: 20px;
 }
 
 footer {
   color: var(--primary-color);
-  margin-top: 10px;
   font-size: 10px;
 }
