@@ -5,6 +5,8 @@ const limparformulario = (endereco) => {
   document.getElementById("bairro").value = '';
   document.getElementById("cidade").value = '';
   document.getElementById("estado").value = '';
+  document.getElementById("numero").value = '';
+  document.getElementById("complemento").value = '';
 }
 
 const preencherFormulario = (endereco) => {
