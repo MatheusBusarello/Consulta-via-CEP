@@ -22,7 +22,7 @@ const cepValido = (cep) => cep.length == 8 && enumero(cep);
 
 const pesquisarCep = async() => {
   limparformulario();
-
+  
   const cep = document.getElementById('cep').value;
   const url = `http://viacep.com.br/ws/${cep}/json/`;
   
@@ -35,6 +35,7 @@ const pesquisarCep = async() => {
     } else {
       preencherFormulario(endereco);
     }
+
   }  else{
       document.getElementById('endereco').value = 'CEP incorreto';
   }
