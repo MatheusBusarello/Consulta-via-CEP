@@ -9,6 +9,11 @@ const limparformulario = (endereco) => {
   document.getElementById("complemento").value = '';
 }
 
+
+const validarFormulario = (data) => {
+  alert('Testando')
+}
+
 const preencherFormulario = (endereco) => {
   document.getElementById('endereco').value = endereco.logradouro;
   document.getElementById('bairro').value = endereco.bairro;
@@ -16,9 +21,10 @@ const preencherFormulario = (endereco) => {
   document.getElementById('estado').value = endereco.uf;
 }
 
-const enumero = (numero) => /^[0-9]+$/.test(numero);
+// TODO - Atualizar nome da função | camel case
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
 
-const cepValido = (cep) => cep.length == 8 && enumero(cep);
+const cepValido = (cep) => cep.length == 8 && eNumero(cep)
 
 const pesquisarCep = async() => {
   limparformulario();

@@ -1,0 +1,23 @@
+{
+  "name": "consulta-via-cep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusBusarello/Consulta-via-CEP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusBusarello/Consulta-via-CEP/issues"
+  },
+  "homepage": "https://github.com/MatheusBusarello/Consulta-via-CEP#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
